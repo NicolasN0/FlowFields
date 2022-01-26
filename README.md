@@ -30,22 +30,29 @@ The flow field loops over all the cells and checks for every cell which neighbou
 The info box on the right side will show you which mode you are in.
 B will turn on Blue mode, K will turn on RED mode
 Press the same button again of the mode you are in to return to Green mode
+
 Green: 
+
 LMB: Set a new goal point
+
 RMB: Erase impassable and rough paths created by blue mode
 
 BLUE:
+
 LMB: Set cell as impassable terrain
+
 RMB: Set cell as rough terrain with cost value 4
 
 RED:
+
 LMB: Place cube in gameworld at cell position (automatically sets the cost value to 255)
+
 RMB: Deletes placed cube
 
 Showing info:
+
 1: Show every cells cost value (press again when you want a refreshed view)
+
 2: Show every cells integration value (press again when you want a refreshed view)
+
 3: Show the direction of every cell to where the velocity of the flowfield value (velocity) pushes  
-
-
-
