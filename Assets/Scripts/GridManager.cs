@@ -217,7 +217,6 @@ public class GridManager : MonoBehaviour
         {
             return _tile;
         }
-        Debug.Log("KUUUUT");
         return null;
     }
 
